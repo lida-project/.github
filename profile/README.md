@@ -6,21 +6,21 @@ Lida Project is an organization for support community-facing projects and experi
 LIDA is a **library for generating data visualizations and data-faithful infographics**. 
 
 LIDA is grammar agnostic (will work with any programming language and visualization libraries e.g. matplotlib, seaborn, altair, d3 etc) and works with multiple large language model providers (OpenAI, Azure OpenAI, PaLM, Cohere, Huggingface). 
- * Read [this paper](https://browse.arxiv.org/pdf/2303.02927.pdf) for more details on the research
- * See [this notebook](https://github.com/microsoft/lida/blob/main/notebooks/tutorial.ipynb) for a sample tutorial.
- * Check out [this website](https://microsoft.github.io/lida/) for project updates.
- * Star [this repo](https://github.com/microsoft/lida) if you like the project.
- * Watch [this video](https://vimeo.com/820968433) for a quick walkthrough of LIDA in action.
+ * 🔬 | | Read [this paper](https://browse.arxiv.org/pdf/2303.02927.pdf) for more details on the research
+ * 📗 | See [this notebook](https://github.com/microsoft/lida/blob/main/notebooks/tutorial.ipynb) for a sample tutorial.
+ * 💻 | Check out [this website](https://microsoft.github.io/lida/) for project updates.
+ * ⭐️ | Star [this repo](https://github.com/microsoft/lida) if you like the project.
+ * 📽 | Watch [this video](https://vimeo.com/820968433) for a quick walkthrough of LIDA in action.
 
 
 ## LIDA Features
 
 The LIDA tool consists of 4 modules as shown below:
- - a **Summarizer** that converts the data into a rich and compact natural language summary
- - a **goal explorer** that, given the data, enumerates visualization goals
- - a **visgenerator** that generates, refines, evaluates, repairs, executes, and filters, visualization code.
- - an **infographer** that yields data-faithful stylized graphics using image generation models (IGM)
- - 
+ - ☑ | a **Summarizer** that converts the data into a rich and compact natural language summary
+ - ☑ |a **goal explorer** that, given the data, enumerates visualization goals
+ - ☑ |a **visgenerator** that generates, refines, evaluates, repairs, executes, and filters, visualization code.
+ - ☑ |an **infographer** that yields data-faithful stylized graphics using image generation models (IGM)
+   
 ![LIDA Modules](https://github.com/microsoft/lida/blob/main/docs/images/lidamodules.jpg)
 
 LIDA treats visualizations as code and provides a clean api for generating, executing, editing, explaining, evaluating and repairing visualization code. Scan [the project README.md](https://github.com/microsoft/lida)  to learn more.
